@@ -92,4 +92,8 @@ class ProductController extends Controller
         );
         return redirect()->route('admin.index.product')->with($notification);
     }
+    public function Show(){
+        return view();
+    }
+
 }
